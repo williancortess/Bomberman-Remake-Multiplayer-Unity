@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 847e1f89dce037748a0fba851cc9486c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: antebraco_L
+    100002: antebraco_R
+    100004: Body
+    100006: bolinha1
+    100008: //RootNode
+    100010: braco_L
+    100012: braco_R
+    100014: calcn_L
+    100016: calcn_R
+    100018: centro
+    100020: coxa_L
+    100022: coxa_R
+    100024: dedope_L
+    100026: dedope_R
+    100028: eyes
+    100030: Floor Line
+    100032: Head
+    100034: kbc
+    100036: kbc_bolinha
+    100038: kbc_olhos
+    100040: kbc_psc
+    100042: mao_L
+    100044: mao_R
+    100046: olho
+    100048: ombro_L
+    100050: ombro_R
+    100052: pantur_L
+    100054: pantur_R
+    100056: pe_L
+    100058: pe_R
+    100060: pelvis
+    100062: pescoc
+    100064: tronco
+    400000: antebraco_L
+    400002: antebraco_R
+    400004: Body
+    400006: bolinha1
+    400008: //RootNode
+    400010: braco_L
+    400012: braco_R
+    400014: calcn_L
+    400016: calcn_R
+    400018: centro
+    400020: coxa_L
+    400022: coxa_R
+    400024: dedope_L
+    400026: dedope_R
+    400028: eyes
+    400030: Floor Line
+    400032: Head
+    400034: kbc
+    400036: kbc_bolinha
+    400038: kbc_olhos
+    400040: kbc_psc
+    400042: mao_L
+    400044: mao_R
+    400046: olho
+    400048: ombro_L
+    400050: ombro_R
+    400052: pantur_L
+    400054: pantur_R
+    400056: pe_L
+    400058: pe_R
+    400060: pelvis
+    400062: pescoc
+    400064: tronco
+    4300000: Body
+    4300002: Head
+    4300004: eyes
+    7400000: Idle
+    7400002: Walk
+    7400004: Bomb
+    7400006: Death
+    9500000: //RootNode
+    13700000: Body
+    13700002: eyes
+    13700004: Head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: centro
+        weight: 1
+      - path: centro/pelvis
+        weight: 1
+      - path: centro/pelvis/coxa_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L/dedope_L
+        weight: 1
+      - path: centro/pelvis/coxa_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R/dedope_R
+        weight: 1
+      - path: centro/tronco
+        weight: 1
+      - path: centro/tronco/ombro_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L/mao_L
+        weight: 1
+      - path: centro/tronco/ombro_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R/mao_R
+        weight: 1
+      - path: centro/tronco/pescoc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha/bolinha1
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos/olho
+        weight: 1
+      - path: Floor Line
+        weight: 1
+      - path: Floor Line/Body
+        weight: 1
+      - path: Floor Line/Body/Head
+        weight: 1
+      - path: Floor Line/Body/Head/eyes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: centro
+        weight: 1
+      - path: centro/pelvis
+        weight: 1
+      - path: centro/pelvis/coxa_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L/dedope_L
+        weight: 1
+      - path: centro/pelvis/coxa_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R/dedope_R
+        weight: 1
+      - path: centro/tronco
+        weight: 1
+      - path: centro/tronco/ombro_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L/mao_L
+        weight: 1
+      - path: centro/tronco/ombro_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R/mao_R
+        weight: 1
+      - path: centro/tronco/pescoc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha/bolinha1
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos/olho
+        weight: 1
+      - path: Floor Line
+        weight: 1
+      - path: Floor Line/Body
+        weight: 1
+      - path: Floor Line/Body/Head
+        weight: 1
+      - path: Floor Line/Body/Head/eyes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bomb
+      takeName: Take 001
+      firstFrame: 112
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: centro
+        weight: 1
+      - path: centro/pelvis
+        weight: 1
+      - path: centro/pelvis/coxa_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L/dedope_L
+        weight: 1
+      - path: centro/pelvis/coxa_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R/dedope_R
+        weight: 1
+      - path: centro/tronco
+        weight: 1
+      - path: centro/tronco/ombro_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L/mao_L
+        weight: 1
+      - path: centro/tronco/ombro_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R/mao_R
+        weight: 1
+      - path: centro/tronco/pescoc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha/bolinha1
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos/olho
+        weight: 1
+      - path: Floor Line
+        weight: 1
+      - path: Floor Line/Body
+        weight: 1
+      - path: Floor Line/Body/Head
+        weight: 1
+      - path: Floor Line/Body/Head/eyes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 112
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: centro
+        weight: 1
+      - path: centro/pelvis
+        weight: 1
+      - path: centro/pelvis/coxa_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L
+        weight: 1
+      - path: centro/pelvis/coxa_L/pantur_L/calcn_L/pe_L/dedope_L
+        weight: 1
+      - path: centro/pelvis/coxa_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R
+        weight: 1
+      - path: centro/pelvis/coxa_R/pantur_R/calcn_R/pe_R/dedope_R
+        weight: 1
+      - path: centro/tronco
+        weight: 1
+      - path: centro/tronco/ombro_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L
+        weight: 1
+      - path: centro/tronco/ombro_L/braco_L/antebraco_L/mao_L
+        weight: 1
+      - path: centro/tronco/ombro_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R
+        weight: 1
+      - path: centro/tronco/ombro_R/braco_R/antebraco_R/mao_R
+        weight: 1
+      - path: centro/tronco/pescoc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc/kbc_bolinha/bolinha1
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos
+        weight: 1
+      - path: centro/tronco/pescoc/kbc_psc/kbc_olhos/olho
+        weight: 1
+      - path: Floor Line
+        weight: 1
+      - path: Floor Line/Body
+        weight: 1
+      - path: Floor Line/Body/Head
+        weight: 1
+      - path: Floor Line/Body/Head/eyes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00100000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

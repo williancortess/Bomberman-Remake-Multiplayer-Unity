@@ -1,0 +1,84 @@
+Initialize engine version: 5.5.0b4 (9f8737ccd563)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon R7 M265 (ID=0x6900)
+    Vendor:   ATI
+    VRAM:     2035 MB
+    Driver:   20.19.15.4463
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  1.113 seconds
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Willian\Desktop\BomberMan_Willian_Gabriel\BomberMan_Willian_Gabriel\Build\bomberman_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 2902x864 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.945959 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2964 -> priority: 1 
+The prefab 'PwFire' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.120452 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1234.
+Total: 16.252975 ms (FindLiveObjects: 0.227511 ms CreateObjectMapping: 0.287383 ms MarkObjects: 15.683768 ms  DeleteObjects: 0.052601 ms)
+
+Socket: bind failed, error: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+Cannot open socket on ip {*} and port {7777}; check please your network, most probably port has been already occupied
+ 
+(Filename:  Line: 492)
+
+StartServer listen failed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The prefab 'PwFire' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 447)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.094365 ms
+Failed to create agent because there is no valid NavMesh
+ 
+(Filename:  Line: 498)
+
+The prefab 'PwFire' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2216.
+Total: 5.474821 ms (FindLiveObjects: 0.381039 ms CreateObjectMapping: 0.275408 ms MarkObjects: 4.303050 ms  DeleteObjects: 0.513612 ms)
+

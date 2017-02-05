@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 69d2bbb9a55d9ca45bbd76dbbb7c6529
+timeCreated: 1480112931
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bomba
+    100004: controle_pavil00
+    100006: controle_pavil01
+    100008: controle_pavil02
+    100010: controle_pavil03
+    100012: Cylinder001
+    100014: pavil00
+    100016: pavil01
+    100018: pavil02
+    100020: pavil03
+    100022: pavil04
+    100024: pavil05
+    100026: pavil06
+    100028: pavil07
+    100030: pavil_IK
+    100032: pavil_trilho
+    400000: //RootNode
+    400002: bomba
+    400004: controle_pavil00
+    400006: controle_pavil01
+    400008: controle_pavil02
+    400010: controle_pavil03
+    400012: Cylinder001
+    400014: pavil00
+    400016: pavil01
+    400018: pavil02
+    400020: pavil03
+    400022: pavil04
+    400024: pavil05
+    400026: pavil06
+    400028: pavil07
+    400030: pavil_IK
+    400032: pavil_trilho
+    2300000: bomba
+    3300000: bomba
+    4300000: bomba
+    4300002: Cylinder001
+    7400000: explosion
+    9500000: //RootNode
+    13700000: Cylinder001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: explosion
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bomba
+        weight: 1
+      - path: bomba/Cylinder001
+        weight: 1
+      - path: controle_pavil00
+        weight: 1
+      - path: controle_pavil00/controle_pavil01
+        weight: 1
+      - path: controle_pavil00/controle_pavil01/controle_pavil02
+        weight: 1
+      - path: controle_pavil00/controle_pavil01/controle_pavil02/controle_pavil03
+        weight: 1
+      - path: pavil07
+        weight: 1
+      - path: pavil07/pavil06
+        weight: 1
+      - path: pavil07/pavil06/pavil05
+        weight: 1
+      - path: pavil07/pavil06/pavil05/pavil04
+        weight: 1
+      - path: pavil07/pavil06/pavil05/pavil04/pavil03
+        weight: 1
+      - path: pavil07/pavil06/pavil05/pavil04/pavil03/pavil02
+        weight: 1
+      - path: pavil07/pavil06/pavil05/pavil04/pavil03/pavil02/pavil01
+        weight: 1
+      - path: pavil07/pavil06/pavil05/pavil04/pavil03/pavil02/pavil01/pavil00
+        weight: 1
+      - path: pavil_IK
+        weight: 1
+      - path: pavil_trilho
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.03
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
